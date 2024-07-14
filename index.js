@@ -193,6 +193,7 @@ async function run() {
       const updatedDoc = {
         $set: {
           userName: edit.userName,
+          aboutMe: edit.aboutMe,
           profileURL: edit.profileURL,
           address: edit.address,
           city: edit.city,
